@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="EntityTemplate" format=3 uid="uid://brvg4vreucamj"]
+
+[ext_resource type="Texture2D" uid="uid://bd0pl5v552a0k" path="res://assets/icons/entities/duck_icon.png" id="1_faoll"]
+[ext_resource type="Script" uid="uid://dj13os5ed8csc" path="res://entities/EntityTemplate.gd" id="1_tg07p"]
+[ext_resource type="Resource" uid="uid://dbpc2uso4cs0s" path="res://entities/routines/PreyBehavior.tres" id="1_ui2hb"]
+[ext_resource type="SpriteFrames" uid="uid://dpm1eea7fb2lb" path="res://assets/animations/actors/animals/duck.tres" id="3_ui2hb"]
+
+[resource]
+script = ExtResource("1_tg07p")
+template_name = "Duck"
+icon = ExtResource("1_faoll")
+has_behavior = true
+has_health = true
+has_materia = true
+has_memory = true
+has_movement = true
+has_perception = true
+has_visual = true
+behavior_type = 6
+behavior_tree = ExtResource("1_ui2hb")
+health_specie = 1
+health_agility = 0
+health_spirit = 1
+health_mind = 1
+health_vitality = 1
+info_name = "Duck"
+info_gender = "Female"
+inventory_capacity = 3
+materia_essence = 4
+materia_composition = Array[int]([1])
+movement_type = 2
+movement_weight = 0
+movement_point = Vector2(inf_neg, inf_neg)
+movement_solid = null
+movement_snap = true
+percep_attention_limit = 3
+percep_max_attempts = 10
+percep_vision_range = {
+"back_ratio": 0.1,
+"length": 14.0,
+"width": 6.0
+}
+percep_scan_pattern = 0
+percep_sweep_dir = 1
+percep_angle = 0.0
+percep_scan_speed = 1.0
+percep_forward_ratio = 0.7
+percep_debug = false
+visual_sprite_frames = ExtResource("3_ui2hb")
+metadata/_custom_type_script = "uid://dj13os5ed8csc"

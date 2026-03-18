@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="BehaviorTemplate" format=3 uid="uid://debf5bqh88qww"]
+
+[ext_resource type="Script" uid="uid://do35ifrn4bm6s" path="res://tools/BehaviorTemplate.gd" id="1_g4oww"]
+
+[resource]
+script = ExtResource("1_g4oww")
+behavior_type = 0
+metadata/_custom_type_script = "uid://do35ifrn4bm6s"

@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bhgiqpobf8aje"]
+
+[ext_resource type="Texture2D" uid="uid://o4dox56cdi7r" path="res://assets/sprites/items/blue_berries.png" id="1_gbnfp"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_gbnfp")
+}],
+"loop": false,
+"name": &"idle",
+"speed": 5.0
+}]

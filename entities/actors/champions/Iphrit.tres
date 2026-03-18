@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="EntityTemplate" format=3 uid="uid://bny4fu078wase"]
+
+[ext_resource type="Resource" uid="uid://debf5bqh88qww" path="res://entities/routines/PlayerBehavior.tres" id="1_7u0h3"]
+[ext_resource type="Script" uid="uid://dj13os5ed8csc" path="res://entities/EntityTemplate.gd" id="1_t4w7p"]
+[ext_resource type="Texture2D" uid="uid://bp0ucrhshi341" path="res://assets/icons/entities/iphrit_icon.png" id="2_exh6q"]
+[ext_resource type="SpriteFrames" uid="uid://mpcnmc4870ej" path="res://assets/animations/actors/champions/iphrit.tres" id="2_jf34e"]
+
+[resource]
+script = ExtResource("1_t4w7p")
+template_name = "Iphrit"
+icon = ExtResource("2_exh6q")
+has_behavior = true
+has_inventory = true
+has_health = true
+has_materia = true
+has_movement = true
+has_visual = true
+behavior_type = 0
+behavior_tree = ExtResource("1_7u0h3")
+health_specie = 3
+health_agility = 5
+health_spirit = 1
+health_mind = 1
+health_vitality = 5
+info_name = "Iphrit"
+info_gender = "Male"
+inventory_capacity = 3
+materia_essence = 5
+materia_composition = Array[int]([1])
+movement_type = 2
+movement_weight = 1
+movement_point = Vector2(inf_neg, inf_neg)
+movement_solid = null
+movement_snap = true
+visual_sprite_frames = ExtResource("2_jf34e")
+metadata/_custom_type_script = "uid://dj13os5ed8csc"

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="EntityTemplate" format=3 uid="uid://0uwl5xdw2hkj"]
+
+[ext_resource type="Script" uid="uid://dj13os5ed8csc" path="res://entities/EntityTemplate.gd" id="1_0cv5n"]
+[ext_resource type="Texture2D" uid="uid://vlb5s55acn3o" path="res://assets/icons/entities/pines.png" id="1_kxohc"]
+[ext_resource type="SpriteFrames" uid="uid://tc4n2p4o7xbi" path="res://assets/animations/vegetation/pine.tres" id="2_0mos7"]
+
+[resource]
+script = ExtResource("1_0cv5n")
+template_name = "PineTree"
+icon = ExtResource("1_kxohc")
+has_health = true
+has_materia = true
+has_movement = true
+has_visual = true
+health_specie = 7
+health_agility = 0
+health_spirit = 1
+health_mind = 1
+health_vitality = 10
+info_name = "PineTree"
+info_gender = ""
+materia_essence = 4
+materia_composition = Array[int]([7])
+movement_type = 2
+movement_weight = 1
+movement_point = Vector2(inf_neg, inf_neg)
+movement_solid = true
+movement_snap = true
+visual_sprite_frames = ExtResource("2_0mos7")
+metadata/_custom_type_script = "uid://dj13os5ed8csc"

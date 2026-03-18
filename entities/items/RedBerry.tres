@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="EntityTemplate" format=3 uid="uid://dqa3y7c1n7hkt"]
+
+[ext_resource type="Script" uid="uid://dj13os5ed8csc" path="res://entities/EntityTemplate.gd" id="1_eflrf"]
+[ext_resource type="Texture2D" uid="uid://brw80ptd13orl" path="res://assets/sprites/items/red_berries.png" id="1_m4ytw"]
+[ext_resource type="SpriteFrames" uid="uid://cd3wavd74ao4s" path="res://assets/animations/items/red_berries.tres" id="3_fitby"]
+
+[resource]
+script = ExtResource("1_eflrf")
+template_name = "RedBerry"
+icon = ExtResource("1_m4ytw")
+is_item = true
+has_inventory = null
+has_health = true
+has_materia = true
+has_movement = true
+has_visual = true
+health_specie = 5
+health_agility = 0
+health_spirit = 1
+health_mind = 1
+health_vitality = 1
+info_name = "Red Berry"
+info_gender = ""
+materia_essence = 4
+materia_composition = Array[int]([3])
+movement_type = 2
+movement_weight = 0
+movement_point = Vector2(inf_neg, inf_neg)
+movement_solid = null
+movement_snap = true
+visual_sprite_frames = ExtResource("3_fitby")
+item_type = 1
+item_quality = 1
+item_quantity = 1
+item_owner_uid = -1
+item_last_owner = -1
+metadata/_custom_type_script = "uid://dj13os5ed8csc"

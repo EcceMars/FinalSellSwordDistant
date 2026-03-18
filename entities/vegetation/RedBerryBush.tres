@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="EntityTemplate" format=3 uid="uid://b722qhukcv7uy"]
+
+[ext_resource type="Texture2D" uid="uid://dvtny4v5edlof" path="res://assets/icons/entities/fruit_bush_icon.png" id="1_r7al6"]
+[ext_resource type="Script" uid="uid://dj13os5ed8csc" path="res://entities/EntityTemplate.gd" id="2_1g4ua"]
+[ext_resource type="SpriteFrames" uid="uid://by4rk6y58xpy5" path="res://assets/animations/vegetation/red_berry_bush.tres" id="3_u57u6"]
+
+[resource]
+script = ExtResource("2_1g4ua")
+template_name = "RedBerryBush"
+icon = ExtResource("1_r7al6")
+has_health = true
+has_materia = true
+has_movement = true
+has_visual = true
+health_specie = 5
+health_agility = 0
+health_spirit = 1
+health_mind = 1
+health_vitality = 50
+info_name = "RedBerryBush"
+info_gender = ""
+materia_essence = 4
+materia_composition = Array[int]([5])
+movement_type = 2
+movement_weight = 1
+movement_point = Vector2(inf_neg, inf_neg)
+movement_solid = true
+movement_snap = true
+visual_sprite_frames = ExtResource("3_u57u6")
+metadata/_custom_type_script = "uid://dj13os5ed8csc"

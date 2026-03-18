@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="EntityStore" format=3 uid="uid://d1svah7dxlrjo"]
+
+[ext_resource type="Script" uid="uid://tfef7jkfiss1" path="res://stores/EntityStore.gd" id="1_2l3ae"]
+[ext_resource type="Resource" uid="uid://0uwl5xdw2hkj" path="res://entities/vegetation/PineTree.tres" id="1_dlmi0"]
+[ext_resource type="Resource" uid="uid://b722qhukcv7uy" path="res://entities/vegetation/RedBerryBush.tres" id="2_t70w4"]
+[ext_resource type="Resource" uid="uid://brvg4vreucamj" path="res://entities/actors/Duck.tres" id="3_ss50a"]
+[ext_resource type="Resource" uid="uid://tiidc7urgvy8" path="res://entities/actors/GreenSlime.tres" id="4_gp22b"]
+[ext_resource type="Resource" uid="uid://dqguddmob3x6x" path="res://entities/items/BlueBerry.tres" id="5_dfumi"]
+[ext_resource type="Resource" uid="uid://dqa3y7c1n7hkt" path="res://entities/items/RedBerry.tres" id="6_axfd0"]
+[ext_resource type="Resource" uid="uid://bny4fu078wase" path="res://entities/actors/champions/Iphrit.tres" id="7_axfd0"]
+
+[resource]
+script = ExtResource("1_2l3ae")
+data_name = "Entities"
+data_arr = Dictionary[String, Resource]({
+"BlueBerry": ExtResource("5_dfumi"),
+"Duck": ExtResource("3_ss50a"),
+"GreenSlime": ExtResource("4_gp22b"),
+"Iphrit": ExtResource("7_axfd0"),
+"PineTree": ExtResource("1_dlmi0"),
+"RedBerry": ExtResource("6_axfd0"),
+"RedBerryBush": ExtResource("2_t70w4")
+})
+metadata/_custom_type_script = "uid://tfef7jkfiss1"

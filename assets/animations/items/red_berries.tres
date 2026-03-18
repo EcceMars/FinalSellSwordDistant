@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cd3wavd74ao4s"]
+
+[ext_resource type="Texture2D" uid="uid://brw80ptd13orl" path="res://assets/sprites/items/red_berries.png" id="1_vyhsg"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vyhsg")
+}],
+"loop": false,
+"name": &"idle",
+"speed": 5.0
+}]

@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="EntityTemplate" format=3 uid="uid://tiidc7urgvy8"]
+
+[ext_resource type="Resource" uid="uid://bn8rdtfob45dg" path="res://entities/routines/SeekBehavior.tres" id="1_cw7rx"]
+[ext_resource type="Script" uid="uid://dj13os5ed8csc" path="res://entities/EntityTemplate.gd" id="1_jk6jk"]
+[ext_resource type="SpriteFrames" uid="uid://cv5dwfl1dthhp" path="res://assets/animations/actors/beasts/green_slime.tres" id="3_wysbb"]
+
+[resource]
+script = ExtResource("1_jk6jk")
+template_name = "GreenSlime"
+has_behavior = true
+has_information = false
+has_health = true
+has_materia = true
+has_memory = true
+has_movement = true
+has_perception = true
+has_visual = true
+behavior_type = 5
+behavior_tree = ExtResource("1_cw7rx")
+health_specie = 2
+health_agility = 5
+health_spirit = 1
+health_mind = 1
+health_vitality = 5
+inventory_capacity = 2
+materia_essence = 6
+materia_composition = Array[int]([1])
+movement_type = 2
+movement_weight = 0
+movement_point = Vector2(inf_neg, inf_neg)
+movement_solid = null
+movement_snap = true
+percep_attention_limit = 3
+percep_max_attempts = 10
+percep_vision_range = {
+"back_ratio": 0.1,
+"length": 14.0,
+"width": 6.0
+}
+percep_scan_pattern = 0
+percep_sweep_dir = 1
+percep_angle = 0.0
+percep_scan_speed = 1.0
+percep_forward_ratio = 0.7
+percep_debug = false
+visual_sprite_frames = ExtResource("3_wysbb")
+metadata/_custom_type_script = "uid://dj13os5ed8csc"

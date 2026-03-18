@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DataStore" format=3 uid="uid://0yaak1x3kumf"]
+
+[ext_resource type="SpriteFrames" uid="uid://tc4n2p4o7xbi" path="res://assets/animations/vegetation/pine.tres" id="1_ovqt6"]
+[ext_resource type="Script" uid="uid://ddr6eoud2ap4l" path="res://stores/DataStore.gd" id="1_v32js"]
+
+[resource]
+script = ExtResource("1_v32js")
+data_name = "Animations"
+data_arr = Dictionary[String, Resource]({
+"PineTree": ExtResource("1_ovqt6")
+})
+metadata/_custom_type_script = "uid://ddr6eoud2ap4l"
